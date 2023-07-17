@@ -52,3 +52,13 @@ h1 {
 	height: 288px;
 	border-radius: 16px;
 }
+
+.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+	margin-top: auto; 
+}
+
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
