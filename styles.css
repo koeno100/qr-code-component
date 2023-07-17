@@ -3,12 +3,12 @@
 body {
 	font-family: 'Outfit', sans-serif;
 	background-color: hsl(212, 45%, 89%);
+	min-height: 100vh;
+	margin: 0;
 	display: flex;
-	height: 100vh;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	flex-direction: column;
-	margin: 0;
 }
 
 main, footer {
@@ -39,12 +39,11 @@ h1 {
 	color: hsl(218, 44%, 22%);
 }
 
-.window {
+.card {
 	background-color: hsl(0, 0%, 100%);
 	width: 288px;
 	padding: 16px;
 	border-radius: 16px;
-	margin-top: auto;
 }
 
 #qr-code {
@@ -55,8 +54,6 @@ h1 {
 
 .attribution { 
 	font-size: 11px; 
-	text-align: center; 
-	margin-top: auto; 
 }
 
 .attribution a { 
